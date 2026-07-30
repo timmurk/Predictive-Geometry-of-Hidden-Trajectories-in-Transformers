@@ -1,0 +1,16 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+model & direction_type & n & median_single_target_vKv & median_horizon_vKv & median_immediate_fd2 & median_future_sum_fd2 & median_horizon_sum_fd2 & median_future_to_immediate_ratio \\
+\midrule
+LLaMA-2-7B & single_target_top & 96 & 0.3439 & 0.04782 & 0.1922 & 0.003417 & 0.2061 & 0.03504 \\
+LLaMA-2-7B & horizon_top & 96 & 0.06977 & 0.08078 & 0.0462 & 0.1951 & 0.3867 & 8.668 \\
+LLaMA-2-7B & single_target_projected_null & 192 & 7.24e-07 & 6.271e-07 & 0.0002054 & 0.0005158 & 0.0007603 & 3.683 \\
+LLaMA-2-7B & horizon_projected_null & 192 & 7.821e-07 & 5.708e-07 & 0.0002201 & 0.0005681 & 0.0007697 & 3.54 \\
+LLaMA-2-7B & random & 192 & 1.056e-06 & 7.232e-07 & 0.0002037 & 0.0005523 & 0.0007964 & 3.004 \\
+Mistral-7B & single_target_top & 96 & 4.775 & 0.8684 & 3.034 & 0.4768 & 4.683 & 0.1305 \\
+Mistral-7B & horizon_top & 96 & 0.8814 & 1.508 & 0.5459 & 7.34 & 8.299 & 11.88 \\
+Mistral-7B & single_target_projected_null & 192 & 1.718e-05 & 1.971e-05 & 0.001469 & 0.01319 & 0.01512 & 7.953 \\
+Mistral-7B & horizon_projected_null & 192 & 2.08e-05 & 1.995e-05 & 0.001431 & 0.01259 & 0.01441 & 8.355 \\
+Mistral-7B & random & 192 & 2.518e-05 & 1.964e-05 & 0.001343 & 0.01332 & 0.01545 & 7.912 \\
+\bottomrule
+\end{tabular}

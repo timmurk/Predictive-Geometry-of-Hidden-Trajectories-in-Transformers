@@ -1,0 +1,14 @@
+\begin{tabular}{llrrrrrrrr}
+\toprule
+model & direction_type & n & median_vKv_fisher & median_vHv_CE & median_CE_minus_K_rel_error & mean_cos_HCEv_Kv & median_teacherKL_fd2 & median_CE_fd2 & spearman_vKv_vs_teacherKL_fd2 \\
+\midrule
+LLaMA-2-7B & top_fisher & 96 & 0.345 & 0.3474 & 0.1961 & 0.8697 & 0.2008 & 0.2085 & 0.9781 \\
+LLaMA-2-7B & grad_aligned & 96 & 0.1326 & 0.1266 & 0.3492 & 0.7623 & 0.1084 & 0.08324 & 0.9934 \\
+LLaMA-2-7B & projected_null & 192 & 6.643e-07 & 3.968e-07 & 0.9646 & 0.1783 & 0.0002207 & -0.0005611 & 0.5901 \\
+LLaMA-2-7B & random & 192 & 8.175e-07 & 4.694e-07 & 0.9359 & 0.2704 & 0.0002086 & -0.0001025 & 0.647 \\
+Mistral-7B & top_fisher & 96 & 4.617 & 3.924 & 0.2976 & 0.6382 & 3.273 & 3.713 & 0.9754 \\
+Mistral-7B & grad_aligned & 96 & 4.178 & 1.906 & 0.3745 & 0.5354 & 2.776 & 2.717 & 0.9885 \\
+Mistral-7B & projected_null & 192 & 1.925e-05 & 8.269e-06 & 0.9753 & 0.1143 & 0.001603 & 0.01617 & 0.6809 \\
+Mistral-7B & random & 192 & 2.298e-05 & 8.863e-06 & 0.9497 & 0.167 & 0.001555 & 0.01381 & 0.7745 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,55 @@
+{
+  "repository_purpose": "anonymous reviewer follow-up results",
+  "included_content": {
+    "figures": [
+      "fig_effective_rank_fd_moment_by_layer.png",
+      "fig_effective_rank_hutchinson_by_layer.png",
+      "fig_effective_rank_moment_vs_hutchinson_scatter.png",
+      "fig_future_fd2_by_direction_rho_1e-3.png",
+      "fig_future_leakage_single_null_ratio_by_layer_rho_1e-3.png",
+      "fig_hessian_rel_error_by_direction_rho_1e-3.png",
+      "fig_hessian_top_fisher_cosine_by_layer.png",
+      "fig_immediate_vs_future_fd2_scatter_rho_1e-3.png",
+      "fig_teacherKL_fd2_vs_vKv_top_fisher_rho_1e-3.png"
+    ],
+    "tables": [
+      "table_compact_reviewer_comparison.csv",
+      "table_compact_reviewer_comparison.md",
+      "table_compact_reviewer_comparison.tex",
+      "table_effective_rank_summary.csv",
+      "table_effective_rank_summary.md",
+      "table_effective_rank_summary.tex",
+      "table_future_leakage_summary_rho_1e-3.csv",
+      "table_future_leakage_summary_rho_1e-3.md",
+      "table_future_leakage_summary_rho_1e-3.tex",
+      "table_hessian_fisher_direct_summary_rho_1e-3.csv",
+      "table_hessian_fisher_direct_summary_rho_1e-3.md",
+      "table_hessian_fisher_direct_summary_rho_1e-3.tex"
+    ],
+    "summary": "summary_info.json"
+  },
+  "excluded_content": [
+    "paper source",
+    "author metadata",
+    "raw model checkpoints",
+    "private local paths",
+    "environment logs",
+    "full raw experiment directories"
+  ],
+  "dataset": [
+    "openwebtext"
+  ],
+  "models": [
+    "LLaMA-2-7B",
+    "Mistral-7B"
+  ],
+  "layers_per_model_hessian": {
+    "LLaMA-2-7B": 32,
+    "Mistral-7B": 32
+  },
+  "examples_per_model_hessian": {
+    "LLaMA-2-7B": 3,
+    "Mistral-7B": 3
+  },
+  "main_reporting_radius": "rho=1e-3"
+}

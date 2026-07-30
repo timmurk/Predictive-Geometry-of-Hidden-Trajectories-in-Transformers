@@ -1,0 +1,20 @@
+{
+  "raw_hessian_rows": 3456,
+  "raw_effective_rank_rows": 192,
+  "raw_future_leakage_rows": 4608,
+  "models": [
+    "LLaMA-2-7B",
+    "Mistral-7B"
+  ],
+  "datasets": [
+    "openwebtext"
+  ],
+  "layers_per_model_hessian": {
+    "LLaMA-2-7B": 32,
+    "Mistral-7B": 32
+  },
+  "examples_per_model_hessian": {
+    "LLaMA-2-7B": 3,
+    "Mistral-7B": 3
+  }
+}

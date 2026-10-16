@@ -1,0 +1,7 @@
+torch>=2.3
+transformers>=4.46
+datasets>=2.19
+numpy
+pandas
+matplotlib
+tabulate

@@ -1,0 +1,11 @@
+model,seq_len,examples,layers,gpu_hours
+LLaMA-3.2-1B,512,32,16,0.8
+SmolLM2-1.7B,512,32,24,1.0
+Gemma-2B,512,32,26,1.2
+Qwen2.5-3B,512,32,36,2.0
+Phi-3 Mini,512,32,32,2.2
+LLaMA-2-7B,512,32,32,4.0
+Mistral-7B,512,32,32,4.0
+Gemma-7B,512,32,28,4.5
+OLMo-3-7B,512,32,32,4.5
+Gemma2-9B,512,32,42,6.0

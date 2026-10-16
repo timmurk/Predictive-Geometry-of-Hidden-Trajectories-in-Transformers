@@ -1,0 +1,4 @@
+kd,pairs,wins,mean_delta_geo,median_delta_geo,svd_mean,asvd_mean
+FKL,14,8,-38.4,-12.6,-35.0,-41.7
+RKL,14,9,21.3,12.3,44.5,-1.9
+SkewKL,14,10,59.3,8.6,66.7,51.9
